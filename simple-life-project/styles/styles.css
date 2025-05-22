@@ -190,7 +190,7 @@ header {
     text-align: center;
     background-color: var(--white-grey);
     padding: 4em 0;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 nav ul {
@@ -305,11 +305,17 @@ nav li {
 }
 
 /* about me */
-.about-me-image {
+#about-me-image {
     order: -1;
-    min-height: 300px;
+    max-height: 300px;
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 674px) {
+    #about-me-image {
+        max-height: 150px;
+    }
 }
 
 /* sidebar images on small screen */
