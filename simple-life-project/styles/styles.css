@@ -64,6 +64,7 @@ h1 {
         margin-bottom: 1em;
     }
 }
+
 a {
     text-decoration: none;
     color: var(--light-blue);
@@ -75,13 +76,17 @@ strong {
 
 p {
     line-height: 26px;
-    font-family: 'avenir', sans-serif;
 }
 
 footer p {
     font-size: 1rem;
     color: #9d9d9d;
 }
+
+.article-body {
+    font-family: 'avenir', 'ubuntu', sans-serif;
+}
+
 /* navigation */
 
 /* logo sub-title */
