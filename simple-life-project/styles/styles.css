@@ -1,7 +1,14 @@
+/* font import */
+@font-face {
+    font-family: 'avenir-pro';
+    src: url(../avenir-lt-pro/AvenirLTProBlack.otf);
+}
+
 /* varible declaration */
 
 :root {
-    --grey: #707070;
+    /* --grey: #686868; */
+    --grey: #626262;
     --light-blue: #1792D2;
     --deep-blue: #143774;
     --white-grey: #f8f8f8;
@@ -68,6 +75,12 @@ strong {
 
 p {
     line-height: 26px;
+    font-family: 'avenir';
+}
+
+footer p {
+    font-size: 1rem;
+    color: #9d9d9d;
 }
 /* navigation */
 
@@ -134,13 +147,14 @@ a:focus,
     color: #0a2958;
 }
 
-
-
-
 .widget-recent-post-title,
 .widget-title {
     font-size: 1.3rem;
     margin-bottom: 1em;
+}
+
+.widget-recent-post-title {
+    margin-top: 1rem;
 }
 
 .widget-title {
