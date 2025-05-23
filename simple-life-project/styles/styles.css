@@ -87,9 +87,9 @@ footer p {
 .logo-sub-title {
     margin: 0;
     text-transform: uppercase;
-    font-weight: 700; /* same as bold*/
-    font-size: .75rem;
-    letter-spacing: 2.4px;
+    font-weight: 900; /* same as bold*/
+    font-size: .8rem;
+    letter-spacing: 2.2px;
     color: var(--light-blue);
     text-align: center;
 }
@@ -97,10 +97,10 @@ footer p {
 nav a {
     text-decoration: none;
     color: var(--grey);
-    letter-spacing: 3px;
-    font-weight: 700;
+    letter-spacing: 2.2px;
+    font-weight: 800;
     padding: .25em 0;
-    font-size: .8rem;
+    font-size: .85rem;
 }
 
 nav a:hover,
@@ -148,7 +148,7 @@ a:focus,
 
 .widget-recent-post-title,
 .widget-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 1em;
 }
 
@@ -157,9 +157,9 @@ a:focus,
 }
 
 .widget-title {
-    font-family: 'ubuntu', sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-family: inherit;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .article-info {
