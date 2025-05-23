@@ -1,9 +1,3 @@
-/* font import */
-@font-face {
-    font-family: 'avenir-pro';
-    src: url(../avenir-lt-pro/AvenirLTProBlack.otf);
-}
-
 /* varible declaration */
 
 :root {
@@ -16,7 +10,7 @@
 
 body {
     margin: 0;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'nunito sans', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
     color: var(--grey);
@@ -84,7 +78,7 @@ footer p {
 }
 
 .article-body {
-    font-family: 'avenir', 'ubuntu', sans-serif;
+    font-family: 'nunito sans';
 }
 
 /* navigation */
@@ -140,7 +134,7 @@ nav a:focus {
 }
 
 .article-read-more {
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: 2px;
     color: var(--light-blue);
 }
