@@ -87,7 +87,7 @@ footer p {
 .logo-sub-title {
     margin: 0;
     text-transform: uppercase;
-    font-weight: 900; /* same as bold*/
+    font-weight: 800;
     font-size: .8rem;
     letter-spacing: 2.2px;
     color: var(--light-blue);
