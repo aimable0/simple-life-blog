@@ -75,7 +75,7 @@ strong {
 
 p {
     line-height: 26px;
-    font-family: 'avenir';
+    font-family: 'avenir', sans-serif;
 }
 
 footer p {
